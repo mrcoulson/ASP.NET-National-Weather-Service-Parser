@@ -1,4 +1,4 @@
-** CAVEAT: As of 12/5/2011, NWS seems to have changed the elements in its conditions feed. This means that the example output page may be using elements that do not really exist in the XML file you would get from NWS. I hope they fix that! **
+** CAVEAT: As of 12/5/2011, it appears feeds from some observation locations are missing some XML elements. This could cause the example page to display strange stuff, but it shouldn't affect the actual reading/parsing of the XML. **
 
 This is a port of a project originally by rpringle:
 https://github.com/rpringle/National-Weather-Service-Parser
