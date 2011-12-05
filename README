@@ -1,3 +1,5 @@
+** CAVEAT: As of 12/5/2011, NWS seems to have changed the elements in its conditions feed. This means that the example output page may be using elements that do not really exist in the XML file you would get from NWS. I hope they fix that! **
+
 This is a port of a project originally by rpringle:
 https://github.com/rpringle/National-Weather-Service-Parser
 
