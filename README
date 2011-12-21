@@ -1,7 +1,7 @@
 This is a port of a project originally by rpringle:
 https://github.com/rpringle/National-Weather-Service-Parser
 
-Included here are the C# code and an example ASPX page. The example page includes scripting and styles for my work environment. The Literal called litOut is all you really need.
+Included here are the C# code and an example ASPX page. The example page includes scripting and styles for my work environment. The Literal called "litOut" is all you really need.
 
 This parser is for anyone who wants to display local weather data without having to use a provider's branding, styles, or ads. This code targets .NET 3.5.
 
