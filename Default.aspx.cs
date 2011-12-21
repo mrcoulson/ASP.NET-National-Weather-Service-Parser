@@ -70,8 +70,8 @@ namespace NWSParser
                         select "<div id=\"wxContainer\">" +
                                     "<img id=\"icon\" alt=\" \" src=\"" + strIconsPath + (string)c.Element("icon_url_name") + "\" />" +
                                     "<p class=\"boxText\" id=\"basic\">" +
-                                        (string)c.Element("temp_f") + "&#176; F<br />" +
-                                        (string)c.Element("weather") +
+                                        "<span class=\"tempSpan\">" + (string)c.Element("temp_f") + "&#176; F</span><br />" +
+                                        "<span class=\"weatherSpan\">" + (string)c.Element("weather") + "</span>" +
                                     "</p>" +
                                     "<p class=\"boxText\" id=\"details\">" +
                                         "<span class=\"category\">Wind chill: <span class=\"value\">" + (string)c.Element("windchill_f") + "</span>&#176; F<br /></span>" +

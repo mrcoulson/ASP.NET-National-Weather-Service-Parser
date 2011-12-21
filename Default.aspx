@@ -14,6 +14,10 @@
                 return $.trim($(this).find("span.value").text()).length == 0;
             }).hide();
             $("span.value:contains('0.0 MPH')").html("Calm");
+            var weatherToLower = $("span.weatherSpan").html();
+            weatherToLower = weatherToLower.toLowerCase();
+            weatherToLower = weatherToLower.charAt(0).toUpperCase() + weatherToLower.substr(1);
+            $("span.weatherSpan").html(weatherToLower);
         });
         //]]>
 </script>
