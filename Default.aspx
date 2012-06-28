@@ -6,7 +6,7 @@
 <head runat="server">
     <meta charset="utf-8">
     <title>weather parser</title>
-    <script type="text/javascript" src="/jquery/load_jquery.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript">
         //<![CDATA[
         $(document).ready(function() {
