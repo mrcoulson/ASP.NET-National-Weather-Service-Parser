@@ -6,7 +6,7 @@ Information
 
 This is a port [National Weather Service Parser](https://github.com/rpringle/National-Weather-Service-Parser) originally by rpringle.
 
-Included here are the C# code and an example ASPX page. The example page includes scripting and styles for my work environment. The Literal called `litOut` is all you really need.
+Included here are the C# code and an example ASPX page. The example page includes scripting and styles for my work environment. The Literal called `litOut` is all you really need.  [Example output](http://www.co.frederick.va.us/apps/nwsparser/default.aspx).
 
 This parser is for anyone who wants to display local weather data without having to use a provider's branding, styles, or ads.
 
