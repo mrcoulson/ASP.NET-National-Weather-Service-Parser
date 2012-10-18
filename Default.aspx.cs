@@ -34,7 +34,7 @@ namespace NWSParser
             displayWeather(strLocalFeed);
 
             // Check for broken weather display.
-            if (!litOut.Text.Contains("jpg"))
+            if (!litOut.Text.Contains("png"))
             {
                 // Run functions again with backup feed if main feed is broken.
                 parseWeather(strLocalFeedBackup, strRemoteFeedBackup);

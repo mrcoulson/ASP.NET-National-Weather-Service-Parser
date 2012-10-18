@@ -17,7 +17,7 @@ Requirements
 Latest Changes
 --------------
 
-Weather parsing and display are now abstracted away.  You never need to touch those functions if you're happy with how they work.  Also, the code now supports a backup weather location in case the primary location is broken.  Right now, it just tests to see if the weather icon is there; if not, it parses and displays the secondary location.  This has seemed to work well for me so far.
+NWS seems to be using PNG graphics instead of JPEG.  I changed the line that tests for the existence of the weather graphic to use the PNG.  If you are using this in your site, you'll need to save all of your JPEG images as PNG and make this change to your code.
 
 Setup
 -----
