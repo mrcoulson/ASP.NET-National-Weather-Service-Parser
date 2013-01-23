@@ -4,7 +4,7 @@ ASP.NET National Weather Service Parser
 Information
 -----------
 
-This is a port [National Weather Service Parser](https://github.com/rpringle/National-Weather-Service-Parser) originally by rpringle.
+This is a port of [National Weather Service Parser](https://github.com/rpringle/National-Weather-Service-Parser) originally by rpringle.
 
 Included here are the C# code and an example ASPX page. The example page includes scripting and styles for my work environment. The Literal called `litOut` is all you really need.  [Example output](http://www.co.frederick.va.us/apps/nwsparser/default.aspx).
 
@@ -17,7 +17,7 @@ Requirements
 Latest Changes
 --------------
 
-NWS seems to be using PNG graphics instead of JPEG.  I changed the line that tests for the existence of the weather graphic to use the PNG.  If you are using this in your site, you'll need to save all of your JPEG images as PNG and make this change to your code.
+To avoid an unnecessary decimal in the current temperature display, I've changed from casting it as a string to casting it as a float: `(float)c.Element("temp_f")`.  If there's a significant decimal (e.g., 23.6), the decimal value is displayed.  If not, (e.g., 23.0), the decimal value is dropped.
 
 Setup
 -----

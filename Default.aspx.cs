@@ -121,7 +121,7 @@ namespace NWSParser
                         select "<div id=\"wxContainer\">" +
                                     "<img id=\"icon\" alt=\" \" src=\"" + strIconsPath + (string)c.Element("icon_url_name") + "\" />" +
                                     "<p class=\"boxText\" id=\"basic\">" +
-                                        "<span class=\"tempSpan\">" + (string)c.Element("temp_f") + "&#176; F</span><br />" +
+                                        "<span class=\"tempSpan\">" + (float)c.Element("temp_f") + "&#176; F</span><br />" +
                                         "<span class=\"weatherSpan\">" + (string)c.Element("weather") + "</span>" +
                                     "</p>" +
                                     "<p class=\"boxText\" id=\"details\">" +
